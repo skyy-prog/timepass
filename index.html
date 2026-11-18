@@ -4,23 +4,157 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Anant Prajapati – Resume</title>
-<meta name="description" content="Resume of Anant Prajapati, Full-Stack Developer (MERN).">
+<meta name="description" content="Resume of Anant Prajapati: Full-Stack Developer (MERN), DevOps & Cloud, Data Structures & Algorithms.">
+<meta property="og:title" content="Anant Prajapati – Resume">
+<meta property="og:description" content="Full-Stack Developer (MERN) | DevOps & Cloud | DSA">
 <style>
-  html,body{margin:0;height:100%;background:#0c0a09}
-  iframe{display:block;width:100%;height:100%;border:0}
-  .fallback{font:16px system-ui,sans-serif;color:#f5f5f4;padding:24px;text-align:center}
-  .fallback a{color:#818cf8}
-</style>
-<script>
-  // Phones/tablets don't embed PDFs well, so open the PDF directly there.
-  if (/Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent)) {
-    location.replace('AnantPrajapatiSDE.pdf');
+  :root{--ink:#111;--muted:#444;--link:#0b57d0;--rule:#111;--bg:#e9eaec;--paper:#fff}
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;background:var(--bg);color:var(--ink);
+    font:15px/1.5 "Segoe UI",system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;
   }
-</script>
-<noscript><meta http-equiv="refresh" content="0; url=AnantPrajapatiSDE.pdf"></noscript>
+  a{color:var(--link);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .bar{max-width:860px;margin:18px auto 0;padding:0 16px;display:flex;justify-content:flex-end}
+  .dl{
+    font-size:13px;font-weight:600;padding:7px 14px;border-radius:8px;
+    background:#111;color:#fff;
+  }
+  .dl:hover{text-decoration:none;opacity:.88}
+  .paper{
+    max-width:860px;margin:12px auto 40px;background:var(--paper);
+    padding:44px 52px 48px;box-shadow:0 2px 14px rgba(0,0,0,.12);border-radius:4px;
+  }
+  header{text-align:center;margin-bottom:6px}
+  h1{margin:0;font-size:26px;letter-spacing:.02em;text-transform:uppercase}
+  .tagline{margin:4px 0 2px;font-size:14px;color:var(--muted)}
+  .contact{font-size:13.5px;color:var(--muted)}
+  .contact span+span::before,.contact a+span::before,.contact span+a::before,.contact a+a::before{content:" | ";color:#888}
+  h2{
+    margin:22px 0 8px;padding-bottom:3px;border-bottom:1.5px solid var(--rule);
+    font-size:13.5px;letter-spacing:.08em;text-transform:uppercase;
+  }
+  p{margin:0}
+  .skills p{margin:3px 0}
+  .skills b{font-weight:700}
+  .proj{margin-bottom:14px}
+  .row{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+  .row .t{font-weight:700}
+  .row .r{font-size:13px;color:var(--muted);font-style:italic}
+  ul{margin:4px 0 0;padding-left:20px}
+  li{margin:3px 0}
+  .edu{margin-bottom:8px}
+  .edu .sub{font-size:14px;color:var(--muted)}
+  @media (max-width:640px){
+    body{font-size:14.5px}
+    .bar{margin-top:10px}
+    .paper{margin:8px 0 0;padding:26px 18px 34px;border-radius:0;box-shadow:none}
+    h1{font-size:22px}
+    .contact{line-height:1.8}
+  }
+  @media print{
+    body{background:#fff;font-size:11.5px}
+    .bar{display:none}
+    .paper{margin:0;padding:0;box-shadow:none;max-width:none}
+    .proj,.edu{break-inside:avoid}
+    a{color:#000}
+  }
+</style>
 </head>
 <body>
-  <iframe src="AnantPrajapatiSDE.pdf#view=FitH" title="Anant Prajapati – Resume"></iframe>
-  <p class="fallback">Can't see the resume? <a href="AnantPrajapatiSDE.pdf">Open the PDF</a></p>
+
+<div class="bar"><a class="dl" href="AnantPrajapatiSDE.pdf" download>Download PDF</a></div>
+
+<main class="paper">
+  <header>
+    <h1>Anant Prajapati</h1>
+    <p class="tagline">Full-Stack Developer (MERN) | DevOps &amp; Cloud | Data Structures &amp; Algorithms</p>
+    <p class="contact">
+      <span>Navi Mumbai, India</span>
+      <a href="tel:+918356067877">+91-8356067877</a>
+      <a href="mailto:aakashprajapati2457@gmail.com">aakashprajapati2457@gmail.com</a>
+      <a href="https://github.com/skyy-prog" target="_blank" rel="noopener">github.com/skyy-prog</a>
+    </p>
+  </header>
+
+  <h2>Summary</h2>
+  <p>Full-Stack Developer with experience building scalable, responsive web applications using the MERN stack. Skilled in secure RESTful APIs, authentication, real-time features, AI-powered integrations and CI/CD on Azure. Strengthening Data Structures &amp; Algorithms (Java) and System Design, with three production-deployed projects.</p>
+
+  <h2>Technical Skills</h2>
+  <div class="skills">
+    <p><b>Languages:</b> JavaScript (ES6+), TypeScript, Java, SQL</p>
+    <p><b>Frontend:</b> React.js, Redux, Tailwind CSS, HTML5, CSS3, Responsive Design</p>
+    <p><b>Backend:</b> Node.js, Express.js, RESTful APIs, Webhooks, GitHub API, JWT, WebAuthn, Socket.IO, Nodemailer</p>
+    <p><b>Databases:</b> PostgreSQL, MongoDB, Mongoose, Supabase, Neon</p>
+    <p><b>DevOps &amp; Cloud:</b> Docker, Docker Compose, Git, GitHub, GitHub Actions (CI/CD), Azure VM, Linux, SSH, Nginx, Caddy</p>
+    <p><b>Tools &amp; Platforms:</b> Postman, Vercel, VS Code, Gemini API (LLM)</p>
+    <p><b>System Design:</b> Hashing, Rate Limiting, CQRS, Event Sourcing, MVC Architecture, RBAC, Job Queues, Idempotency</p>
+  </div>
+
+  <h2>Projects</h2>
+
+  <div class="proj">
+    <div class="row">
+      <span class="t">ReviewPilot – AI Pull Request Reviewer (GitHub App)</span>
+      <span class="r">TypeScript, React | <a href="https://github.com/skyy-prog/reviewpilot" target="_blank" rel="noopener">github.com/skyy-prog/reviewpilot</a></span>
+    </div>
+    <ul>
+      <li>Built a TypeScript GitHub App that reviews pull requests with an LLM (Gemini API), posting a summary, risk level and inline comments on changed lines about 30 seconds after a PR opens.</li>
+      <li>Designed a reliable pipeline with HMAC-SHA256 webhook verification, PostgreSQL job queue (SKIP LOCKED), a separate worker, idempotency and retries; built a React + Vite dashboard with login and feedback voting.</li>
+      <li>Containerized with Docker Compose; built a GitHub Actions CI/CD pipeline that publishes images to GHCR and auto-deploys over SSH to an Azure VM with HTTPS via Caddy.</li>
+    </ul>
+  </div>
+
+  <div class="proj">
+    <div class="row">
+      <span class="t">Fixora – AI-Powered Repair Marketplace</span>
+      <span class="r">MERN Stack | <a href="https://fixora.anantbuilds.me" target="_blank" rel="noopener">fixora.anantbuilds.me</a></span>
+    </div>
+    <ul>
+      <li>Built a repair marketplace connecting customers with verified repairers via real-time chat and repair-request workflows.</li>
+      <li>Developed REST APIs with Express.js and MongoDB for authentication, problem posting, reviews and messaging; secured access with JWT and WebAuthn passkey login.</li>
+      <li>Integrated Socket.IO for live messaging and OpenStreetMap + Leaflet for nearby-repairer matching.</li>
+      <li>Created a responsive React.js + Tailwind CSS frontend with multilingual support, Cloudinary uploads and AI-powered problem analysis.</li>
+    </ul>
+  </div>
+
+  <div class="proj">
+    <div class="row">
+      <span class="t">EasyTax – GST &amp; Tax Management Platform for Small Businesses</span>
+      <span class="r">Full-Stack PWA | <a href="https://easytaxes.anantbuilds.me" target="_blank" rel="noopener">easytaxes.anantbuilds.me</a></span>
+    </div>
+    <ul>
+      <li>Built a full-stack Progressive Web App (PWA) for small business owners in India to manage products, sales, expenses, reports, documents and tax reminders from one dashboard.</li>
+      <li>Implemented invoice generation for recorded sales, with a live calculator for base amount, 18% GST and total payable, plus a daily dashboard of sales, GST collected, expenses and net profit.</li>
+      <li>Developed a GST-focused tax assistant chatbot with guided prompts, a document uploader for storing tax records, and due-date reminders for filings such as GSTR-3B.</li>
+      <li>Added a one-click summary generator and sales charts for daily performance insights; made the app installable on mobile and desktop through PWA support.</li>
+    </ul>
+  </div>
+
+  <h2>Achievements</h2>
+  <ul>
+    <li><b>Solved 160+ DSA problems</b> covering Arrays, Strings, Recursion, Backtracking and Linked Lists. LeetCode: <a href="https://leetcode.com/u/skyyisms/" target="_blank" rel="noopener">skyyisms</a></li>
+    <li><b>Reached the 2nd round</b> of Summer Hacks Hackathon at ITM University, Kharghar.</li>
+  </ul>
+
+  <h2>Education</h2>
+  <div class="edu">
+    <div class="row">
+      <span class="t">Bachelor of Science in Information Technology (B.Sc. IT)</span>
+      <span class="r">Expected Graduation: 2027</span>
+    </div>
+    <p class="sub">Rajiv Gandhi College, Navi Mumbai | CGPA: 8.35 (Sem 1), 9.27 (Sem 2), 8.36 (Sem 3), 9.00 (Sem 4)</p>
+  </div>
+  <div class="edu">
+    <div class="row">
+      <span class="t">Higher Secondary (HSC) – Maharashtra Board</span>
+      <span class="r">Completed: 2024</span>
+    </div>
+    <p class="sub">Gaurav Junior College, Navi Mumbai | Percentage: 71.80%</p>
+  </div>
+</main>
+
 </body>
 </html>
